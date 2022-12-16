@@ -1,0 +1,23 @@
+.question{
+    padding: 40px 0;
+    min-height: 174px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__text{
+        max-width: 497px;
+    }
+    &__title{
+        font-family: 'Martel';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: $main-color;
+    }
+    &__subtitle{
+        font-weight: 400;
+        color: $second-color;
+    }
+}

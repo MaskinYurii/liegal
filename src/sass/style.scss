@@ -1,0 +1,49 @@
+@import 'libs/bootstrap-reboot.min';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+*{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.title{
+    font-family: 'Martel';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: $main-color;
+    text-align: center;
+}
+.subtitle{
+    max-width: 431px;
+    color: $second-color;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+.logo{
+    font-family: 'Martel';
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/laws';
+@import 'blocks/about';
+@import 'blocks/review';
+@import 'blocks/attorneys';
+@import 'blocks/_contact';
+@import 'blocks/question';
+@import 'blocks/footer'

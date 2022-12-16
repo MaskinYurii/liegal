@@ -1,0 +1,35 @@
+.promo{
+    padding: 224px 0 120px;
+    background-color: #FAFAFA;
+    &__title{
+        text-align: center;
+        color: $main-color;
+        font-family: 'Martel';
+        font-weight: 900;
+        font-size: 58px;
+        line-height: 65px;
+        letter-spacing: 0.2px;
+        max-width: 753px;
+        margin: 0 auto;
+    }
+    &__subtitle{
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: $second-color;
+        max-width: 539px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    &__buttons{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .button{
+        margin: 0 5px;
+    }
+}

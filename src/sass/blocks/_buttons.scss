@@ -1,0 +1,47 @@
+.button{
+    display: block;
+    width: 182px;
+    height: 48px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    background: $button-color;
+    border: none;
+    transition: 0.4s all;
+    border-radius: 5px;
+    &_main{
+        border-radius: 37px;
+        &:hover{
+            background: transparent;
+            color: $button-color;
+            border: 1px solid $button-color;
+        }
+    }
+    &_transp{
+        border-radius: 37px;
+        background: transparent;
+        border: 1px solid $button-color;
+        color: $button-color;
+        &:hover{
+            color: #fff;
+            border: none;
+            background-color: $button-color;
+        }
+    }
+    &_submit{
+        width: 215px;
+        height: 58px;
+        margin-top: 40px;
+    }
+    &_contact{
+        width: 158px;
+        height: 58px;
+    }
+    &_mini{
+        width: 117px;
+        height: 58px;
+        border: 1px solid #E6E6E6;
+        border-radius: 0px 5px 5px 0px;
+
+    }
+}
