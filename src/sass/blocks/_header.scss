@@ -5,21 +5,25 @@
     top: 0;
     left: 50%;
     transform: translate(-50%);
-    padding: 36px 0;
-    height: 104px;
+    padding: 36px 15px;
+    min-height: 104px;
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    align-items: center;
     &__logo{
         color: $main-color;
     }
     &__wrapper{
         display: flex;
+        align-items: center;
     }
     &__menu{
-        list-style-type: none;
-        display: flex;
-        text-align: center;
+        ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
         li{
             margin-left: 21px;
             a{
@@ -36,9 +40,12 @@
     }
     &__icons{
         margin-left: 39px;
+        display: flex;
+        align-items: center
     }
     &__icon{
         margin-left: 18px;
+        text-decoration: none;
         svg{
             &:hover path{
                 fill: $main-color;
@@ -48,4 +55,7 @@
             margin-left: 0;
         }
     }
+}
+.hamburger{
+    display: none;
 }

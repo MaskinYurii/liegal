@@ -1,5 +1,5 @@
 .footer{
-    min-height: 526px;
+    // min-height: 526px;
     background-color: $main-color;
     position: relative;
     &__top{
@@ -25,10 +25,12 @@
     &__content{
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
     &-block{
         display: flex;
         flex-direction: column;
+
         &__subtitle{
             font-family: 'Martel';
             color: #fff;
@@ -47,11 +49,12 @@
         }
         &__form{
             display: flex;
-            width: 321px;
+            max-width: 321px;
             margin-bottom: 10px;
         }
         &__input{
-            width: 204px;
+            max-width: 200px;
+            width: 100%;
             border: 1px solid #E6E6E6;
             border-radius: 5px 0px 0px 5px;
             padding: 15px 20px;
@@ -69,13 +72,11 @@
     }
 
     &__bottom{
-        position: absolute;
-        bottom: 0;
         background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
         color: #fff;
         font-weight: 700;
         width: 100%;
-        height: 74px;
-        padding: 25px 195px;
+        padding: 25px 0;
+        margin-top: 70px;
     }
 }
